@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="openPDF:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/openPDF_jar</output-path>
+    <root id="archive" name="openPDF.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="openPDF" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
